@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Bean - Home</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <header class="row space-between align-center" style="position: sticky;
+                                              top: 0;
+                                              text-align:center; 
+                                              padding: 20px 50px;
+                                              z-index: 10;">
+      <a href="#" style="display: inline-flex; align-items: center; width: 150px; justify-content: center;">
+        <span class="icon-sm" style="padding-bottom: 10px; box-sizing: content-box;">
+          <img style="max-width:100%;" src="icons/icon.png">
+        </span>
+        <h3 class="inline" style="margin: 0;">The Bean</h3>
+      </a>
+      <nav class="inline-block" style="vertical-align: middle;">
+        <ul style="display: inline-flex;">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">Our Story</a></li>
+          <li><a href="menu.html">FAQ</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <span class="row space-evenly" style="float: right; width: 150px;">
+        <a href="#" >
+            <img class="icon-sm" src="icons/account.png"/>
+        </a>
+        <a href="#" >
+            <img class="icon-sm" src="icons/cart.png" />
+        </a>
+        <a href="#" >
+            <img class="icon-sm" src="icons/wishlist.png" />
+        </a>
+      </span>
+    </header>
+
+    <main>
+      <section class="stack block"  style="width: 100%; height: 600px; max-width: 1500px; margin-inline: auto;">
+        <div class="stacked column align-center" style="margin-inline: auto; width: 400px; left: 0; right: 0;">
+            <h2>Coffee & Relax</h2>
+            <h3>Coffee is believed to have been discovered</h2>
+            <p>
+              The beans used to make coffee are the seeds found inside the red or purple coffee cherries.
+              These beans are extracted.
+            </p>
+            <a class="row stadium align-center" style="border: 5px solid var(--color-7); padding: 5px;" href="#">
+                <h3 class="inline" style="margin: 0; margin-inline: 25px;">Get Started</h3>
+                <span style="padding: 20px; border-radius: 50%; background: var(--color-7);">
+                  <img class="icon-sm" src="icons/r_arrow.png"/>
+                </span>
+            </a>
+        </div>
+
+        <div class="stacked" style="width: 100%; z-index: -1;">
+            <div class="row space-between" style="margin: 0 150px;">
+                <picture class="image-l stack" style="--hue-rotation: 50deg;">
+                    <img class="image-w-l stacked rotated hue-rotated bean-background" style="--rotation: -75deg" src="images/bean_silhouette.png" />
+                    <img class="image-w-l stacked rotated" style="--rotation: -10deg" src="images/drink_1.png" />
+                </picture>
+                <picture class="image-l stack" style="--hue-rotation: 100deg;">
+                    <img class="image-w-l stacked rotated hue-rotated bean-background" style="--rotation: 5deg" src="images/bean_silhouette.png" />
+                    <img class="image-w-l stacked rotated" style="--rotation: 5deg" src="images/drink_2.png" />
+                </picture>
+            </div>
+            <div class="row space-between" style="margin: 0 50px;">
+                <picture class="image-l stack" style="--hue-rotation: 150deg;">
+                    <img class="image-w-l stacked rotated hue-rotated bean-background" style="--rotation: -110deg" src="images/bean_silhouette.png" />
+                    <img class="image-w-l stacked rotated" style="--rotation: -5deg" src="images/drink_3.png" />
+                </picture>
+                <picture class="image-l stack" style="--hue-rotation: 200deg;">
+                    <img class="image-w-l stacked rotated hue-rotated bean-background" style="--rotation: 35deg" src="images/bean_silhouette.png" />
+                    <img class="image-w-l stacked rotated" style="--rotation: 15deg" src="images/drink_4.png" />
+                </picture>
+            </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="includes/footer.js"></script>
+  </body>
+</html>
